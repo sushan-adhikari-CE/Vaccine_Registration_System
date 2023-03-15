@@ -48,6 +48,7 @@ void COVID ::main_menu() // Defining the method
     int first_choice;
     std::cout << "\033[0;39,44m\033[21m";
     // For color: "\033[{FORMAT_ATTRIBUTE};{FORGROUND_COLOR};{BACKGROUND_COLOR}m{TEXT}\033[{RESET_FORMATE_ATTRIBUTE}m"
+    // You can change the color and the attributes by taking a reference from the internet
     std::cout << "\n\n\t\t\t\033[4;34;103m************************************************\033[0m\n";
     std::cout << "\t\t\t\033[1;31;47m*********COVID VACCINE REGISTRATION SYSTEM******\033[0m\n";
     std::cout << "\t\t\t\033[4;34;103m************************************************\033[0m\n";
