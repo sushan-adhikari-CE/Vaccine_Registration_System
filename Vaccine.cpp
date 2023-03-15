@@ -1,4 +1,4 @@
-
+// Please include the folders i.e., Admin and user to ensure that the program is running
 #include <iostream> //For input/output operators(cout, cin)
 #include <conio.h>  //For features such as clrscr, getch()
 #include <cstdio>   //For features of C program (printf, scanf)
@@ -13,6 +13,7 @@
 class COVID
 {
 private:
+    // You can change it later
     std::string admin_username = "Admin";
     std::string admin_password = "Admin";
 
